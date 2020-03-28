@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:background="#2F316156"
+        tools:context=".PatientRegister" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="Register"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="#801515"
+                />
+
+            <EditText
+                android:id="@+id/etname"
+                android:background="@drawable/shapebox"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:hint="Name"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/swhite"
+                android:layout_marginBottom="30dp"
+                />
+
+            <EditText
+                android:id="@+id/etusername"
+                android:background="@drawable/shapebox"
+                android:padding="10dp"
+                android:hint="user Name"
+                android:textColor="@color/white"
+                android:textColorHint="@color/swhite"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="30dp"/>
+
+            <EditText
+                android:id="@+id/etpass"
+                android:background="@drawable/shapebox"
+                android:padding="10dp"
+                android:hint="password"
+                android:textColor="@color/white"
+                android:textColorHint="@color/swhite"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="30dp"/>
+
+            <EditText
+                android:id="@+id/etadd"
+                android:background="@drawable/shapebox"
+                android:padding="10dp"
+                android:hint="email"
+                android:textColor="@color/white"
+                android:textColorHint="@color/swhite"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="30dp"/>
+
+
+
+            <EditText
+                android:id="@+id/etphone"
+                android:background="@drawable/shapebox"
+                android:padding="10dp"
+                android:hint="Phone no"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/swhite"
+                android:layout_marginBottom="30dp"/>
+
+
+            <EditText
+                android:id="@+id/etaddress"
+                android:background="@drawable/shapebox"
+                android:padding="50dp"
+                android:hint="Address "
+                android:textColor="@color/white"
+                android:textColorHint="@color/swhite"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonstylegreen"
+                android:layout_gravity="center"
+                android:text="Send"
+                android:textColor="#fff"
+                android:layout_marginBottom="70dp"
+                />
+        </LinearLayout></ScrollView></LinearLayout>

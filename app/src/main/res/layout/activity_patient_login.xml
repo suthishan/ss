@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="phone.bus.track.app.com.bank.PeopleLogin">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="50dp"
+        android:text="People Login"
+        android:textColor="#4CAF50"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/tv"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="7dp"
+        android:id="@+id/na"
+        android:hint="name"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/tv"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="17dp"
+        android:id="@+id/na1"
+        android:hint="password"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/na"
+        android:inputType="textPassword"/>
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Sign In"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/upbtns"
+        android:textColor="#ffffff"
+        android:onClick="SignIn"
+        android:id="@+id/btn1"
+        android:layout_below="@+id/na1"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/upbtns"
+        android:textColor="#ffffff"
+        android:onClick="Register"
+        android:text="Register" />
+
+
+</RelativeLayout>
